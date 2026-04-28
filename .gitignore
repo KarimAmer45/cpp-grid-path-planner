@@ -1,0 +1,12 @@
+build/
+out/
+.cache/
+.vs/
+.vscode/
+*.user
+*.suo
+*.swp
+*.tmp
+*.log
+cpp-grid-path-planner
+cpp-grid-path-planner.exe
