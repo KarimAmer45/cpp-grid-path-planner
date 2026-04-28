@@ -89,7 +89,3 @@ if (result.found()) {
     // result.path contains start through goal.
 }
 ```
-
-## Gazebo
-
-Gazebo support is intentionally not included in this initial project because no Gazebo installation was available in the local environment when the project was created. The core planner is simulator-agnostic and can be adapted later through a small bridge that converts occupancy grids into `Grid` objects.
