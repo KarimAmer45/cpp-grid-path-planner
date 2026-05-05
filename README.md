@@ -90,21 +90,21 @@ if (result.found()) {
 }
 ```
 
-## Result screenshots
+## Planner output
 
 ![cpp-grid-path-planner result screenshot](docs/results/result-screenshot.png)
 
 A* path recovered on the bundled warehouse text map.
 
 
-## What this demonstrates
+## Search implementation
 
 - Dependency-light C++17 search code with a CLI, reusable library API, and test coverage.
 - Map parsing, obstacle handling, and path reconstruction on plain-text grids.
 - A clean split between planner logic, input parsing, and executable entry points.
 
 
-## Limitations and next steps
+## Validation notes
 
 - The planner targets static rectangular grids and does not model robot footprint inflation.
 - The visual output is text/grid based rather than a GUI or ROS visualization.
