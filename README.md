@@ -92,7 +92,7 @@ if (result.found()) {
 
 ---
 
-## Benchmarks (Live — May 2026)
+## Benchmarks
 
 Compiled with `g++ -std=c++17 -O2`. Timed with 20 runs per grid size (median reported). Maps generated with 18% random obstacle density.
 
