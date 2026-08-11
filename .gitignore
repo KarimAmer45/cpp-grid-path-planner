@@ -10,3 +10,4 @@ out/
 *.log
 cpp-grid-path-planner
 cpp-grid-path-planner.exe
+.claude/
